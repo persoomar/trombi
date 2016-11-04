@@ -9,6 +9,11 @@
 # netbeans project files
 nbproject
 
+# ST2 project files
+/**/*.sublime-workspace
+/**/*.sublime-project
+
+
 # zend studio for eclipse project files
 .buildpath
 .project
