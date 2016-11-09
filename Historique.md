@@ -1,6 +1,12 @@
 09/11/2016:
 
+* configuration de rbac (authmanger) common/config/
+		yii migrate --migrationPath=@yii/rbac/migrations
+		creation des permission et roles 
 
+* Ajouter le dossier dump_files
+
+* Ajouter les avatare par defaut 
 
 * DB : Creating migrations (/console/migrations)
 	   tables :

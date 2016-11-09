@@ -7,12 +7,15 @@ return [
             'class' => 'yii\caching\FileCache',
         ],
            
-    'urlManager' => [
-        'enablePrettyUrl' => true,
-        'showScriptName' => false,
-        'rules' => [
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+            ],
         ],
-    ],
+        'authManager' => [
+        'class' => 'yii\rbac\DbManager',
+        ],
     ],
 
 ];
