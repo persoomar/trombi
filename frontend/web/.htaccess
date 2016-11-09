@@ -1,0 +1,7 @@
+RewriteEngine on
+ 
+# si le fichier tu l'utilise directement 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Si non tu envoi le tout a index.php 
+RewriteRule . index.php
