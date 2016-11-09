@@ -2,6 +2,19 @@
 
 
 
+* DB : Creating migrations (/console/migrations)
+	   tables :
+	   	 Log
+	   	 direction
+	   	 poste
+	   	 fonction
+	   	 agent 
+
+	   	 migrate/up
+
+
+
+* Creations des espaces photos et autorisations dans common/data
 
 * Dbconnections :	environments/dev/common/config/main-local.php
 	Configurer la connection a la base de developpement trombi.dev
@@ -24,5 +37,3 @@
 		Ajouter les trois fichier de rederiction (best practices)
 
 * enable prety url (in common / config)
-
-
