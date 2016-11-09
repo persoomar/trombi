@@ -1,4 +1,6 @@
-09/11/2016:
+
+
+* installation de adminLTE (git)
 
 * configuration de rbac (authmanger) common/config/
 		yii migrate --migrationPath=@yii/rbac/migrations
