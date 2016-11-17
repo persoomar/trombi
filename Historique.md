@@ -1,5 +1,9 @@
 
 
+
+* modifier la configuration pour integrer AdminLTE (common)
+		Metrre a jours un alias pour le template
+
 * installation de adminLTE (git)
 
 * configuration de rbac (authmanger) common/config/
