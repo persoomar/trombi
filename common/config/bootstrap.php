@@ -5,5 +5,4 @@ Yii::setAlias('@backend', dirname(dirname(__DIR__)) . '/backend');
 Yii::setAlias('@console', dirname(dirname(__DIR__)) . '/console');
 
 // Alias pour le template personaliser (installer avec composer)
-
-Yii::setAlias('@template',@bower .'/almasaeed2010/adminlte' );
+Yii::setAlias('@template',@vendor . '/almasaeed2010/adminlte');

@@ -9,11 +9,10 @@ use yii\web\AssetBundle;
  */
 class TrombiAsset extends AssetBundle
 {
-    //public $basePath = '@webroot';
-
-    public $basePath = '@template';
-    public $baseUrl = '@web';
+    //public $basePath = '@vendor/almasaeed2010/adminlte/';
+    //public $baseUrl = '@vendor/almasaeed2010/adminlte/';
     public $sourcePath ='@template';
+    
 
 public $css = [
         'bootstrap/css/bootstrap.min.css',

@@ -10,7 +10,11 @@ use yii\widgets\Breadcrumbs;
 use frontend\assets\TrombiAsset;
 use common\widgets\Alert;
 
+//$asset = TrombiAsset::register($this);
 TrombiAsset::register($this);
+//$baseUrl =$asset->baseUrl;
+$basePath = '@webroot';
+$baseUrl = '@web';
 
 ?>
 <?php $this->beginPage() ?>
