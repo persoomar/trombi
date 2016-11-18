@@ -7,14 +7,12 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use frontend\assets\TrombiAsset;
+use frontend\assets\TemplateAsset;
 use common\widgets\Alert;
 
 //$asset = TrombiAsset::register($this);
-TrombiAsset::register($this);
-//$baseUrl =$asset->baseUrl;
-$basePath = '@webroot';
-$baseUrl = '@web';
+$asset = TemplateAsset::register($this);
+//$baseUrl = $asset->baseUrl;
 
 ?>
 <?php $this->beginPage() ?>
