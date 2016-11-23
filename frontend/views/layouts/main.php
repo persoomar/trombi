@@ -31,7 +31,7 @@ $baseUrl = $asset->baseUrl;
     <?php
     echo $this->render('../trombi/header',['baseUrl' => $baseUrl]);
     echo $this->render('../trombi/leftmenu',['baseUrl' => $baseUrl]);
-    echo $this->render('../trombi/mainpage',['baseUrl' => $baseUrl]);
+    echo $this->render('../trombi/content',['baseUrl' => $baseUrl,'content' => $content]);
     ?>
 
 </div>
