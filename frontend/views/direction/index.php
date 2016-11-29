@@ -18,6 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <p>
         <?= Html::a('Create Direction', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
+    <div class="alert alert-success" role="alert"> Test alert </div>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,

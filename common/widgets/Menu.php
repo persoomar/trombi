@@ -19,7 +19,6 @@ class Menu extends \yii\widgets\Menu
     /**
      * @inheritdoc
      */
-
     protected function renderItem($item)
     {
         if(isset($item['items'])) {

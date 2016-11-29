@@ -9,29 +9,28 @@
 
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
-            <div class = "col-md-6">
+            <div class = "col-lg-12">
                 <!-- Sidebar toggle button-->
                 <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                     <span class="sr-only">Toggle navigation</span>
                 </a>
-            </div>
 
-            <div class="navbar-custom-menu col-md-6">
-                <ul class="nav navbar-nav   ">
-                    <!-- /.search form -->
-                <form action="#" method="get" class="navbar-form navbar-left " role ="search">
-                    <div class="input-group">
-                        <input type="text" name="q" class="form-control" placeholder="Search...">
-              <span class="input-group-btn">
-                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-                </button>
-              </span>
-                    </div>
-                </form>
-                <li>
-                    <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-                </li>
-                    </ul>
+              <div class="col-lg-9 col-lg-offset-1" style ="margin-top: 40;">
+                <div class="input-group " >
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Chercher</button>
+                  </span>
+                  <input type="text" class="form-control" placeholder="Poste ">
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-9 -->
+
+            <div class="navbar-custom-menu ">
+                <ul class="nav navbar-nav ">
+                    <li>
+                        <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                    </li>
+                </ul>
             </div>
+            </div>   
         </nav>
     </header>

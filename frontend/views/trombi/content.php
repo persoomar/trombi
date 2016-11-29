@@ -1,5 +1,6 @@
 <?php
 use yii\widgets\Breadcrumbs;
+use common\widgets\Alert;
 ?>
 <div class="content-wrapper">
 	<selection class="content-header">
@@ -11,7 +12,10 @@ use yii\widgets\Breadcrumbs;
 			])
 		?>
 	</section>	
-	<selection class="content">
-		<?= $content ?>
-	<selection>
+	<section class="content">
+        <!-- Main content -->
+        <?= $content ?>
+        <?= Alert::widget() ?>
+        <!-- /.content -->
+    </section>
 </div>

@@ -32,17 +32,11 @@ $baseUrl = $asset->baseUrl;
     echo $this->render('../trombi/header',['baseUrl' => $baseUrl]);
     echo $this->render('../trombi/leftmenu',['baseUrl' => $baseUrl]);
     echo $this->render('../trombi/content',['baseUrl' => $baseUrl,'content' => $content]);
+   // echo $this->render('../trombi/footer',['baseUrl' => $baseUrl]);
+
     ?>
 
 </div>
-
-<footer class="footer">
-    <div class="container">
-        <p class="pull-left">&copy; Oise Habitat <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= Yii::powered() ?></p>
-    </div>
-</footer>
 
 <?php $this->endBody() ?>
 </body>
